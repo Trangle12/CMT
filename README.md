@@ -6,19 +6,16 @@ Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supe
 
 ![pipeline](assets/pipeline.jpg)
 
+### Preparation
 
-### Installation
+**Requirements: Pytorch>=1.1.0 and python>=3.6**
 
-Clone this repo and extract the files.
-
-We recommand `conda` to create a virtual Python 3.7 environment and install all requirements in it. Extra packages are listed in `requirements.txt` and can be installed by `pip`:
-
-```bash
-conda create -n torch1.6 python=3.7
-conda activate torch1.6
-
-pip install -r requirements.txt
-```
+1. install [pytorch](https://pytorch.org/)
+2. Download re-ID dataset 
+   - [Market-1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view)
+   - [DukeMTMC-reID](https://drive.google.com/file/d/1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O/view)
+   - [MSMT17](https://arxiv.org/abs/1711.08565)
+3. Put the data under the dataset directory. Training, query and test sub-folder should named as bounding_box_train, query, bounding_box_test, respectively.
 
 ### Training
 
