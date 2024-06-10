@@ -29,13 +29,10 @@ Market-1501-v15.09.15/
 ├── gt_query
 └── query
 
-MSMT17_V1/
-├── list_gallery.txt  
-├── list_query.txt  
-├── list_train.txt  
-├── list_val.txt 
-├── train
-└── test
+MSMT17/
+├── bounding_box_test
+├── bounding_box_train
+└── query
 
 ```
 
