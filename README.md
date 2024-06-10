@@ -5,7 +5,6 @@ Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supe
 ## Updates
 - 2024/06 The code will be released soon.
 - 2024/05/17 CMT for ICS-ReID is accepted by TCSVT2024! 🎉🎉
-- 
 ## Overview
 
 ![pipeline](assets/pipeline.jpg)
