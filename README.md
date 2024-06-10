@@ -1,8 +1,12 @@
-# Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification (CMT)
+# Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification
 
-<!-- The code will be available soon. -->
+The code will be available soon.
 
 Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification](https://ieeexplore.ieee.org/document/10534060) (TCSVT 2024).
+
+## Updates
+- 2024/06 The code will be released soon.
+- 2024/05/17 CA-Jaccard distance is accepted by TCSVT2024! 🎉🎉
 
 ![pipeline](assets/pipeline.jpg)
 
