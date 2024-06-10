@@ -4,7 +4,7 @@
 
 Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification](https://ieeexplore.ieee.org/document/10534060) (TCSVT 2024).
 
-![pipeline](assets/pipeline.png)
+![pipeline](assets/pipeline.jpg)
 
 
 ### Installation
