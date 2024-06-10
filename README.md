@@ -12,13 +12,32 @@ Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supe
 ### Preparation
 
 **Requirements: Pytorch>=1.1.0 and python>=3.6**
+Download the datasets:
 
-1. install [pytorch](https://pytorch.org/)
-2. Download re-ID dataset 
-   - [Market-1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view)
-   - [DukeMTMC-reID](https://drive.google.com/file/d/1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O/view)
-   - [MSMT17](https://arxiv.org/abs/1711.08565)
-3. Put the data under the dataset directory. Training, query and test sub-folder should named as bounding_box_train, query, bounding_box_test, respectively.
+For privacy reasons, we don't have the copyright of the dataset. Please contact authors to get this dataset.
+
+```
+DukeMTMC-reID/
+├── bounding_box_test
+├── bounding_box_train
+└── query
+
+Market-1501-v15.09.15/
+├── bounding_box_test
+├── bounding_box_train
+├── gt_bbox
+├── gt_query
+└── query
+
+MSMT17_V1/
+├── list_gallery.txt  
+├── list_query.txt  
+├── list_train.txt  
+├── list_val.txt 
+├── train
+└── test
+
+```
 
 ### Training
 
