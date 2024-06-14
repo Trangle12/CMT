@@ -3,7 +3,7 @@
 Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification](https://ieeexplore.ieee.org/document/10534060) (TCSVT 2024).
 
 ## Updates
-- 2024/06 The code will be released soon.
+- 2024/06 The code will be released at (https://gitee.com/swjtugx/classmate/tree/master/OurGroup/CMT).
 - 2024/05/17 CMT for ICS-ReID is accepted by TCSVT2024! 🎉🎉
 ## Overview
 
