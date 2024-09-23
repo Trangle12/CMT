@@ -54,11 +54,21 @@ CUDA_VISIBLE_DEVICES=0 python evaluate.py --weight /path/to/model/weight.pth # r
 ```
 
 ## Performance
-market
-https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link
-msmt
-https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link
+
 ![perf](assets/perf.png)
+
+### Supervised ReID
+
+##### Market-1501
+| Model         | Image Size|Paper | Download |
+| :------:      | :------: |:------: |:------: |
+| Resnet50      | 384*128 |88.9/95.8 |[model](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link) / [log](https://drive.google.com/drive/folders/1boQ_TMP--TCVJydOOmggkMZDwCTS5CL-?usp=drive_link)|
+
+##### MSMT17
+| Model         | Image Size|Paper | Download |
+| :------:      | :------: |:------: |:------: |
+| Resnet50      | 384*128 |51.4/78.3 |[model](https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link) / [log](https://drive.google.com/drive/folders/1qIdEnHg5wOKY-yZ7NIkZt7Vlp9ZMNM0o?usp=drive_link)|
+
 
 ## Acknowledgement
 
