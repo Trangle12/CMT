@@ -45,14 +45,6 @@ Check and run the shell script `train.sh`:
 CUDA_VISIBLE_DEVICES=0 ./train.sh # run on GPU 0
 ```
 
-### Evaluation
-
-You can run evaluation on any datasets with model weight provided.
-
-```bash
-CUDA_VISIBLE_DEVICES=0 python evaluate.py --weight /path/to/model/weight.pth # run on GPU 0
-```
-
 ## Performance
 
 ![perf](assets/perf.png)
