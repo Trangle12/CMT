@@ -1,9 +1,9 @@
-# Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification
+# Contrastive Mean Teacher for Intra-camera Supervised Person Re-identification
 
 Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification](https://ieeexplore.ieee.org/document/10534060).
 
 ## Updates
-- 2024/06 The code was released at [code](https://gitee.com/swjtugx/classmate/tree/master/OurGroup/CMT).
+- 2024/06 The code has been released at [code](https://gitee.com/swjtugx/classmate/tree/master/OurGroup/CMT).
 - 2024/05/17 CMT for ICS-ReID is accepted by TCSVT2024!
 ## Overview
 
@@ -14,7 +14,7 @@ Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supe
 **Requirements: Pytorch>=1.1.0 and python>=3.6**
 Download the datasets:
 
-For privacy reasons, we don't have the copyright of the dataset. Please contact authors to get this dataset.
+For privacy reasons, we don't have the dataset's copyright. Please contact authors to get this dataset.
 
 ```
 DukeMTMC-reID/
