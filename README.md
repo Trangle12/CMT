@@ -3,6 +3,7 @@
 Official implementation of paper [Contrastive Mean Teacher for Intra-camera Supervised Person Re-Identification](https://ieeexplore.ieee.org/document/10534060).
 
 ## Updates
+- 2024/09 The model weights have been released!
 - 2024/06 The code has been released at [code](https://gitee.com/swjtugx/classmate/tree/master/OurGroup/CMT).
 - 2024/05/17 CMT for ICS-ReID is accepted by TCSVT2024!
 ## Overview
@@ -49,7 +50,7 @@ CUDA_VISIBLE_DEVICES=0 ./train.sh # run on GPU 0
 
 ![perf](assets/perf.png)
 
-### Supervised ReID
+### Intra-camera Supervised Person ReID
 
 ##### Market-1501
 | Model         | Image Size|Paper | Download |
